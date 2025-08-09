@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-header{
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.footer {
+  margin-bottom: 0;
+  background-color: skyblue;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: gray;
+}
+
+.heading {
+  text-align: center;
+  font-size: 24px;
+  color: #61dafb;
+  margin-bottom: 20px;
+}
+
+/* Center the form vertically and horizontally */
+.add-employee-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f7fa;
+    min-height: 100vh;
+}
+
+/* Card styling */
+.employee-card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 25px 30px;
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Form Title */
+.employee-card h3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Label styling */
+.employee-card label {
+    font-weight: 500;
+    margin-bottom: 6px;
+    display: block;
+    color: #555;
+}
+
+/* Input fields */
+.employee-card input {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 16px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.employee-card input:focus {
+    border-color: #4e73df;
+    outline: none;
+}
+
+/* Buttons */
+.employee-card .btn {
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.employee-card .btn-success {
+    background-color: #4e73df;
+    border: none;
+}
+
+.employee-card .btn-success:hover {
+    background-color: #375ac9;
+}
+
+.employee-card .btn-danger {
+    background-color: #e74a3b;
+    border: none;
+}
+
+.employee-card .btn-danger:hover {
+    background-color: #d62828;
+}
